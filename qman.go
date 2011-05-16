@@ -3,7 +3,6 @@ package main
 import (
   "http"
   "io"
-  "os"
   "flag"
   "fmt"
 )
