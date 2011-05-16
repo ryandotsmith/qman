@@ -16,7 +16,6 @@ func enqueue(w http.ResponseWriter, req *http.Request) {
 
 func main() {
   flag.Parse()
-  port := os.Getenv("PORT")
   http.HandleFunc("/enqueue", enqueue)
 
   fmt.Println("listening on", *addr)
