@@ -14,7 +14,6 @@ func enqueue(w http.ResponseWriter, req *http.Request) {
 }
 
 func main() {
-  fmt.Println("init")
   flag.Parse()
   http.HandleFunc("/enqueue", enqueue)
 
