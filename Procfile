@@ -1,1 +1,1 @@
-web ./qman -addr=:$PORT
+web: ./qman -addr=:$PORT
