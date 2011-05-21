@@ -3,4 +3,4 @@
 set -e
 
 cd ..
-#gomake
+gomake
