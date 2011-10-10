@@ -56,6 +56,7 @@ func main() {
   http.HandleFunc("/enqueue", echo)
   fmt.Println("listening on", *addr)
   http.ListenAndServe(*addr, nil)
+
   //payload := []byte("Class.method")
   //queue := new(Queue)
   //queue.enqueue(payload)
